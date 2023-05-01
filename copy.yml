@@ -6,5 +6,5 @@
 
   - name: deploy html file
     copy: src=index.html dest=/tmp
-    notify: restart httpd
+    
   
